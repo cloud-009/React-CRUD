@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "firstname": "one",
+      "lastname": "punch",
+      "email": "one.punch@gmail.com",
+      "phone": "98765432",
+      "gender": "Male",
+      "id": 2
+    }
+  ]
+}

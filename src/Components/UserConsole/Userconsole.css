@@ -1,0 +1,42 @@
+.user-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-container>.user-button{
+    width: 100px;
+    padding: 5px 10px;
+    background-image: linear-gradient(to right, white, navy);
+    color: black;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+}
+
+.table-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 70%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.action-buttons{
+    text-align: center;
+}
